@@ -40,7 +40,7 @@
 
 <header>
 
-@include('include.header')
+@include('include.header2')
 </header>
 @yield('content')
 

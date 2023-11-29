@@ -128,7 +128,7 @@
         </div>
         <div class="header-right">
           <ul>
-            <li>
+            <!-- <li>
               <div class="nav-search search-switch hearer_icon">
                 <a id="search_1" href="javascript:void(0)">
                   <span class="flaticon-search"></span>
@@ -143,6 +143,16 @@
             <li class="cart">
               <a href="cart.html">
                 <span class="flaticon-shopping-cart"></span>
+              </a>
+            </li> -->
+            <li>
+              <a href="{{  url('/login') }}">
+                <span style="font-size:18px">Login </span>
+              </a>
+            </li>
+            <li>
+              <a href="{{  url('/register') }}">
+              <span style="font-size:18px">Register</span>
               </a>
             </li>
           </ul>
